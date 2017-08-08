@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.sayit.Time"
+    tools:showIn="@layout/activity_time">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textColor="#000000"
+        android:text="Explanation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textColor="#808080"
+        android:text="There are two common ways of telling the time." />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textColor="#000000"
+        android:text="Formal but easier way" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textColor="#808080"
+        android:text="Say the hours first and then the minutes." />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:id="@+id/t1"
+        android:textColor="#00FF00"
+        android:text="Example: 7:45 - seven forty-five" />
+
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="For minutes 01 through 09, you can pronounce the '0' as oh." />
+    <TextView   android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t2"
+        android:text="Example: 11:06 - eleven (oh) six" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="More popular way" />
+
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="Say the minutes first and then the hours. Use past and the preceding hour for minutes 01 through 30. Use to and the forthcoming hour for minutes 31 through 59." />
+
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t3"
+        android:text="Example: 7.15 - fifteen minutes past seven" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#00FF00"
+        android:id="@+id/t4"
+    android:text="Example: 7.45 - fifteen minutes to eight" />
+
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="Another possibility of saying '15 minutes past' is: a quarter past
+
+Another possibility of saying '15 minutes to' is: a quarter to
+
+Another possibility of saying '30 minutes past' is: half past" />
+
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t5"
+        android:text="Example: 5:30 - half past five" />
+        <ImageView  android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/time_clock"/>
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/t6"
+        android:text="Note" />
+
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="Use o'clock only at the full hour." />
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t7"
+        android:text="Example: 7:00 - seven o'clock (but 7:10 - ten past seven)" />
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="In English ordinary speech, the twelve-hour clock is used." />
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t8"
+        android:text="Example: 17:20 - twenty past five" />
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="For times around midnight or midday you can use the expressions midnight or midday / noon instead of the number 12." />
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t9"
+        android:text="Example:  00:00 - midnight" />
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t10"
+        android:text="Example: 12:00 - midday or noon" />
+
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="To make clear (where necessary) whether you mean a time before 12 o'clock noon or after, you can use in the morning, in the afternoon, in the evening, at night. Use in the morning before 12 o'clock noon, after 12 o'clock noon use in the afternoon. When to change from afternoon to evening, from evening to night and from night to morning depends on your sense of time." />
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t11"
+        android:text="Example:  00:00 - midnight" /><TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#808080"
+    android:text="More formal expressions to indicate whether a time is before noon or after are a.m. (also: am - ante meridiem, before noon) and p.m. (also: pm - post meridiem, after noon). Use these expression only with the formal way of telling the time." />
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t12"
+        android:text="Example: 3:15 - three fifteen a.m." />
+    <TextView  android:paddingTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#808080"
+    android:text="It is not usual to use a.m. and p.m. with past/to." />
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t13"
+        android:text="Example: 3:15 - fifteen minutes past three OR a quarter past three" />
+
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="American English" />
+
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="Beside past Americans often use after." />
+
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t14"
+        android:text="Example: 06:10 - ten past/after six" />
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="But: in time expressions with half past it is not usual to replace past by after.
+
+Beside to Americans often use before, of or till." />
+    <TextView  android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t15"
+        android:text="Example: 05:50 - ten to/before/of/till six" />
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

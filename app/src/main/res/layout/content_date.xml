@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.sayit.Date"
+    tools:showIn="@layout/activity_date">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Dates" />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="In English, we can say dates either with the day before the month, or the month before the day:" />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t1"
+        android:text="The first of January or January the first." />
+
+    <TextView
+        android:paddingTop="5dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="Remember to use ordinal numbers for dates in English.
+(The first, the second, the third, the fourth, the fifth, the twenty-second, the thirty-first etc.)" />
+
+    <TextView       android:id="@+id/t2"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="15 October or October 15" />
+    <TextView       android:id="@+id/t3"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="Monday, 1 January" />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:id="@+id/t4"
+        android:text="on 2 February" />
+    <TextView      android:id="@+id/t5"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="at the beginning of July" />
+    <TextView      android:id="@+id/t6"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="in mid-December" />
+    <TextView      android:id="@+id/t7"
+        android:paddingTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#00FF00"
+    android:text="at the end of March" />
+    <TextView      android:id="@+id/t8"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="by the end of June" />
+
+    <TextView
+        android:paddingTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:text="Years" />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="For years up until 2000, separate the four numbers into two pairs of two:" />
+    <TextView   android:id="@+id/t9"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="1965 = nineteen sixty-five" />
+    <TextView   android:id="@+id/t10"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="1871 = eighteen seventy-one" />
+
+    <TextView android:id="@+id/t11"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="1999 = nineteen ninety-nine" />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="For the decade 2001 – 2010, you say two thousand and___ when speaking British English:" />
+    <TextView
+        android:paddingTop="5dp" android:id="@+id/t12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="2001 = two thousand and one" />
+
+    <TextView android:id="@+id/t13"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="2009 = two thousand and nine" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="However, from 2010 onwards you have a choice." />
+    <TextView     android:paddingTop="5dp" android:id="@+id/t14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="e.g. 2012 can be either two thousand and twelve or twenty twelve." />
+    <TextView     android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Asking the date" />
+    <TextView    android:paddingTop="5dp" android:id="@+id/t15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="what's the date today?" />
+    <TextView     android:paddingTop="5dp" android:id="@+id/t16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:text="what's today's date?" />
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

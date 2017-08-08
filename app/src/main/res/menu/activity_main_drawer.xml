@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/pit"
+            android:title="Pronounce it" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/pit"
+            android:title="Practice test" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/pit"
+            android:title="Learn" />
+          </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Login to Google Account" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Login to Facebook Account" />
+        </menu>
+    </item>
+
+</menu>

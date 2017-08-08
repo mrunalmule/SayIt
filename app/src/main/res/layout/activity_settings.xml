@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:background="#C5CAE9"
+    android:paddingTop="0dp"
+    tools:context="com.example.android.sayit.Settings">
+
+
+    <TextView
+        android:text="Settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:background="#E8EAF6"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="38dp"
+     />
+
+
+        <TextView
+            android:text="Language settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+            android:layout_marginLeft="64dp"
+            android:layout_marginStart="64dp" />
+   <RadioGroup
+       android:layout_width="wrap_content"
+       android:id="@+id/abcd"
+       android:layout_height="wrap_content">
+    <RadioButton
+        android:text="Local UK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/radioButton"
+        android:onClick="onRadioButtonClicked"
+android:layout_marginLeft="100dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <RadioButton
+        android:text="Local US"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRadioButtonClicked"
+        android:id="@+id/radioButton3"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="26dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" /></RadioGroup>
+    <TextView
+        android:text="Pitch settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp" />
+
+    <Spinner
+        android:layout_marginLeft="100dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner" />
+
+    <Button
+        android:layout_height="wrap_content"
+    android:text="Save changes"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+    android:id="@+id/sv"
+    style="@style/Widget.AppCompat.Button"
+        android:layout_width="250dp" />
+
+
+</LinearLayout>

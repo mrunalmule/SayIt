@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">SayIt</string>
+    <string name="ext">your pronunciation improver </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="speak">Tap on mic to speak</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tips">What’s the key to learning conversational English?
+
+Using the right content and tools.
+
+After all, a regular textbook isn’t going to teach you the casual English you need to know.
+
+You need to learn from real English like it’s spoken on TV.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+<string name="comm1">You can use “hey” and “hi” to greet someone instead of “hello”.
+    Both are particularly popular among younger people. While “hi” is appropriate to use in any casual situation,
+    “hey” is for people who have already met. If you say “hey” to a stranger, it might be confusing for that person
+    because he or she will try to remember when you met before! You can also add “man” to the end of “hey” when greeting
+    males. Some people also use “hey man” to casually greet younger women, but only do this if you know the woman very well.
+    Remember that “hey” doesn’t always mean “hello”. “Hey” can also be used to call for someone’s attention.</string>
+    <string name="comm2">These are casual ways of asking “how are you?” If you’re trying to be particularly polite, stick with “how are you?” but otherwise, you can use these expressions to greet almost anyone.  The word “going” is usually shortened, so it sounds more like “go-in”. You can answer with “it’s going well” or “I’m doing well” depending on the question.  Although it’s not grammatically correct, most people just answer “good” – and you can too. Like when responding to “how are you?” you can also follow your answer by asking “and you?”.</string>
+    <string name="comm3">These are some other informal ways of asking “how are you?” which are typically used to casually greet someone you have met before. Most people answer with “nothing” or “not much”.  Or, if it feels right to make small talk, you could also briefly describe anything new or interesting that’s going on in your life, before asking “what about you?” to continue the conversation.</string>
+    <string name="comm4">These are some other common ways of asking “how are you?” They can be used to casually greet anyone, but most often they’re used to greet someone you already know. To these, you can answer “good” or “not bad”. Again, if small talk feels appropriate, you could also briefly share any interesting news about your life, and then ask the person “what about you?” or another greeting question.</string>
+    <string name="comm5">These questions mean “how are you?” not just right now, but how you’ve been all day. You would use these greetings later in the day and with someone you see regularly. For example, you might ask a co-worker one of these questions in the afternoon, or a cashier that you see at the grocery store every evening. “It’s going well” is the grammatically correct response, but many people simply answer with “fine”, “good” or “alright”. By the way, notice that “good”, “fine” or “not bad” are perfect answers to almost any greeting question.</string>
+    <string name="comm6">These casual greetings are used with friends, co-workers or family members that you haven’t seen in a while. It’s common for close friends to hug when they greet each other, particularly if they haven’t seen each other in some time; so you might use this greeting along with a hug or handshake depending on your relationship with the person.</string>
+    <string name="comm7">These casual greetings are used when you haven’t seen someone in a long time, particularly if you meet that person unexpectedly. How much is a long time? It depends on how often you normally see that person. For example, you could use one of these greetings if you normally see the person every week, but then don’t see them for a few months or more. Usually, these phrases are followed with a question like “how are you”, “how have you been?” or “what’s new?”</string>
+
+
+    <string name="title_activity_learn_act">learn_act</string>
+    <string name="title_activity_time">Time</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_date">Date</string>
+</resources>
